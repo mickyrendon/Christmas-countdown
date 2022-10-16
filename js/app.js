@@ -1,21 +1,40 @@
-const month = document.querySelector('.month')
-const days = document.querySelector('.days')
-const hours = document.querySelector('.hours')
-const minutes = document.querySelector('.minutes')
-const seconds = document.querySelector('.seconds')
+// function startTimer(duration, hoursBox, minBox, secBox) {
+//     let timer = duration, months, days, hours,  minutes, seconds;
+//     setInterval(function () {
+//         // poner el localdate
+//         // months = parseInt(timer / 60, 10);
+//         // days = parseInt(timer / 60, 10);
+//         hours   = parseInt(timer / 3600, 10);
+//         minutes = parseInt(timer / 60, 10);
+//         seconds = parseInt(timer % 60, 10);
 
-// getting the value of any span
-month.children[0].innerText
-month.children[1].innerText
+//         // months = minutes < 10 ? "0" + minutes : minutes;
+//         // days = seconds < 10 ? "0" + seconds : seconds;
+//         hours   = minutes < 10 ? "0" + hours : hours;
+//         minutes = minutes < 10 ? "0" + minutes : minutes;
+//         seconds = seconds < 10 ? "0" + seconds : seconds;
 
-days.children[0].innerText
-days.children[1].innerText
+//         // monthsBox.textContent = months;
+//         // daysBox.textContent = days;
+//         hoursBox.textContent = hours;
+//         minBox.textContent = minutes;
+//         secBox.textContent = seconds;
+        
 
-hours.children[0].innerText
-hours.children[1].innerText
+//         if (--timer < 0) {
+//             timer = duration;
+//         }
+//     }, 1000);
+// }
 
-minutes.children[0].innerText
-minutes.children[0].innerText
+// window.onload = function () {
+//     let deadline = 60 * 3600,
 
-seconds.children[1].innerText
-seconds.children[1].innerText
+//     // monthsBox = document.querySelector('.months')
+//     // daysBox = document.querySelector('.days')
+//     hoursBox = document.querySelector('.hours')
+//     minBox = document.querySelector('.minutes')
+//     secBox = document.querySelector('.seconds')
+
+//     startTimer(deadline, hoursBox, minBox, secBox);
+// };  
